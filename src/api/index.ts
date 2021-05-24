@@ -1,4 +1,4 @@
-import { API_KEY } from "../constants";
+import { API_KEY } from "../API_key";
 
 export const getWeather = async (cityId: string, rej: any) => {
     try {
