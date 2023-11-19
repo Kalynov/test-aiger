@@ -28,7 +28,7 @@ export const WeatherInfo = ({
                         src={`http://openweathermap.org/img/wn/${weather?.icon}.png`}
                     />
                     <Typography.Title level={4}  >
-                        +{temp?.temp.toString().split(".")[0]}
+                        {temp?.temp.toString().split(".")[0]}
                     </Typography.Title>
                     <div className="weather-info-wrapper">
                         <div className="weather-info-box">
@@ -47,7 +47,7 @@ export const WeatherInfo = ({
                                 Ощущается как 
                             </Typography.Text>
                             <Typography.Text >
-                                +{temp?.feels_like.toString().split(".")[0]}
+                                {temp?.feels_like.toString().split(".")[0]}
                             </Typography.Text>
                             
                         </div>
